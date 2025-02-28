@@ -3,7 +3,8 @@
     "paths": {
       "@test-common": ["./lib/test-common/index.ts"]
     },
-    "lib": ["ES2017", "DOM"]
+    "lib": ["ES2017", "DOM"],
+    "esModuleInterop": true
   },
   "exclude": ["node_modules"]
 }
